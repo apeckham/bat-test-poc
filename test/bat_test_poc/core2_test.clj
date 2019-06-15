@@ -1,6 +1,5 @@
 (ns bat-test-poc.core2-test
-  (:require [clojure.test :refer :all]
-            [bat-test-poc.core :refer :all]))
+  (:require [clojure.test :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

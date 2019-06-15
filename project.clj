@@ -6,5 +6,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]]
   :plugins [[metosin/bat-test "0.4.3"]]
   :main ^:skip-aot bat-test-poc.core
+  :bat-test {:on-start bat-test-poc.bat/on-start
+             :on-end bat-test-poc.bat/on-end}
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
